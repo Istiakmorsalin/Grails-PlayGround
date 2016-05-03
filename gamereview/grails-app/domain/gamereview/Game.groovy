@@ -6,6 +6,8 @@ class Game {
 	String description
 	Double price
 
+	static hasMany= [reviews: Review]
+
     static constraints = {
     }
 }
